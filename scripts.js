@@ -5,20 +5,20 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Metallica', image: './artistas/metallica.jpg' },
         { name: 'Nirvana', image: './artistas/nirvana.webp' },
         { name: 'Halocene', image: './artistas/halocene.jpg' },
-        { name: 'Violet Orlandi', image: './artistas/violet-orlandi.webp' }, // Corrigido caminho
-        { name: 'Lauren Babic', image: './artistas/lauren-babic.jpg' }, // Caminho corrigido e barras trocadas
+        { name: 'Violet Orlandi', image: './artistas/violet-orlandi.jpg' }, 
+        { name: 'Lauren Babic', image: './artistas/lauren-babic.jpg' }, 
         { name: 'Muse', image: './artistas/muse.jpg' },
         { name: 'Billie Eilish', image: './artistas/billie-eilish.jpeg' },
         { name: 'Evanescence', image: './artistas/evanescence.jpg' },
         { name: 'My Chemical Romance', image: './artistas/mychemacal.jpg' },
-        { name: 'System of a Down', image: './artistas/system-of-a-don.jpg' }, // Caminho corrigido e barras trocadas
+        { name: 'System of a Down', image: './artistas/system-of-a-don.jpg' }, 
         { name: 'Linkin Park', image: './artistas/linkin-park.jpg' }
     ];
 
-    // Selecione o elemento onde os artistas serão exibidos
+
     const artistsContainer = document.querySelector('.artists');
 
-    // Verifique se o elemento existe
+   
     if (artistsContainer) {
         artistsData.forEach(artist => {
             const artistElement = document.createElement('div');
